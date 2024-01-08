@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [
     vue(),
     VitePWA({
-      mode: "development",
+      mode: "production",
       base: "/",
       srcDir: "src",
       swDest: "dist",
@@ -19,7 +19,7 @@ export default defineConfig({
       manifest: {
         name: "Money",
         short_name: "Money",
-        start_url: "/",
+        start_url: "/Money/",
         display: "standalone",
         icons: [
           {
