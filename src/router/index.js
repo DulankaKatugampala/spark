@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomePage from '@/views/HomePage.vue';
+// import HomePage from '@/views/HomePage.vue';
 import AppFeed from '@/views/AppFeed.vue';
 import AppChat from '@/views/AppChat.vue';
 import AppProfile from '@/views/AppProfile.vue';
@@ -11,8 +11,8 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'root',
-      redirect: '/Feed'
+      name: 'feed',
+      component: AppFeed
     },
     {
       path: '/Add',
@@ -34,11 +34,6 @@ const router = createRouter({
       name: 'search',
       component: AppSearch
     },
-    {
-      path: '/Feed',
-      name: 'feed',
-      component: AppFeed
-    }
   ]
 })
 

@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) navigator.serviceWorker.register('/spark/dev-sw.js?dev-sw', { scope: '/spark/', type: 'classic' })

@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
     VitePWA({
       mode: "production",
-      base: "/Spark/",
+      base: "/spark/",
       srcDir: "src",
       swDest: "dist",
       filename: "sw.js",
@@ -21,7 +21,7 @@ export default defineConfig({
         name: "Spark",
         description: "",
         short_name: "Spark",
-        start_url: "/Spark/",
+        start_url: "/spark/",
         background_color: "#ffffff",
         theme_color: "#ca4c4c",
         display: "standalone",

@@ -1,10 +1,5 @@
 <template>
     <MainLayout class="appSearch">
-      <template #header>
-        <div class="searchBar flex --center pl-16 pr-16 pt-10 pb-10">
-          <input type="text" placeholder="Search..." class="flex-grow" />
-        </div>
-      </template>
       <template #body>
         <div class="appSearch__userRecommendations pl-16 pr-16 pt-10 pb-10">
           <div class="pb-8 pt-10 flex --center --column rounded userCard">
