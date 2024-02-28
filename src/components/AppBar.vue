@@ -1,5 +1,5 @@
 <template>
-  <nav class="appBar p-6">
+  <nav class="appBar p-6 pb-20">
     <div class="appBar__wrapper">
       <RouterLink :to="{ name: 'feed' }" class="appBar__btn" active-class="appBar__btn--active">
         <IconBase icon="home" width="24px" height="24px" />

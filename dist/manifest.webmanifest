@@ -1,1 +1,1 @@
-{"name":"Spark","short_name":"Spark","start_url":"/spark/","display":"standalone","background_color":"#ffffff","lang":"en","scope":"/spark/","id":"sparkapp","description":"","theme_color":"#ca4c4c","icons":[]}
+{"name":"Spark","short_name":"Spark","start_url":"/spark/","display":"standalone","background_color":"#ffffff","lang":"en","scope":"/spark/","id":"sparkapp","description":"","theme_color":"#ffffff","icons":[{"src":"/icons192.png","type":"image/png","sizes":"192x192"},{"src":"/icons512.png","type":"image/png","sizes":"512x512"}]}

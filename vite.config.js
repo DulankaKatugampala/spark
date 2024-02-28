@@ -21,11 +21,21 @@ export default defineConfig({
         name: "Spark",
         description: "",
         short_name: "Spark",
-        start_url: "/spark/",
         background_color: "#ffffff",
-        theme_color: "#ca4c4c",
+        theme_color: "#ffffff",
         display: "standalone",
-        icons: [],
+        icons: [
+          {
+            src: "/icons192.png",
+            type: "image/png",
+            sizes: "192x192"
+          },
+          {
+            src: "/icons512.png",
+            type: "image/png",
+            sizes: "512x512"
+          }
+        ],
       },
       workbox: {
         globPatterns: ["**/*.{js,css,html,ico,png,svg}"],
